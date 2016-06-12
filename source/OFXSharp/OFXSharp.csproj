@@ -82,6 +82,7 @@
     <Compile Include="Balance.cs" />
     <Compile Include="OFXTransactionType.cs" />
     <Compile Include="OFXParseException.cs" />
+    <Compile Include="SGMLToXMLFixer.cs" />
     <Compile Include="SignOn.cs" />
     <Compile Include="Transaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
