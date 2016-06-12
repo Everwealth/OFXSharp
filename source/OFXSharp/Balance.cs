@@ -58,10 +58,10 @@ namespace OFXSharp
             {
                throw new OFXParseException("Avaliable balance has not been set");
             }
-            AvaliableBalanceDate = avaliableNode.GetValue("//DTASOF").ToDate();
+            //AvaliableBalanceDate = avaliableNode.GetValue("//DTASOF").ToDate();
          }
 
-         LedgerBalanceDate = ledgerNode.GetValue("//DTASOF").ToDate();
+         //LedgerBalanceDate = ledgerNode.GetValue("//DTASOF").ToDate();
       }
    }
 }

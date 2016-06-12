@@ -150,8 +150,8 @@ namespace OFXSharp
       {
          var xpath = GetXPath(ofxDocument.AccType, OFXSection.TRANSACTIONS);
 
-         ofxDocument.StatementStart = doc.GetValue(xpath + "//DTSTART").ToDate();
-         ofxDocument.StatementEnd = doc.GetValue(xpath + "//DTEND").ToDate();
+         //ofxDocument.StatementStart = doc.GetValue(xpath + "//DTSTART").ToDate();
+         //ofxDocument.StatementEnd = doc.GetValue(xpath + "//DTEND").ToDate();
 
          var transactionNodes = doc.SelectNodes(xpath + "//STMTTRN");
 

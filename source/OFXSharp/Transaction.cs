@@ -48,8 +48,8 @@ namespace OFXSharp
       {
          TransType = GetTransactionType(node.GetValue(".//TRNTYPE"));
          Date = node.GetValue(".//DTPOSTED").ToDate();
-         TransactionInitializationDate = node.GetValue(".//DTUSER").ToDate();
-         FundAvaliabilityDate = node.GetValue(".//DTAVAIL").ToDate();
+         //TransactionInitializationDate = node.GetValue(".//DTUSER").ToDate();
+         //FundAvaliabilityDate = node.GetValue(".//DTAVAIL").ToDate();
 
          try
          {
